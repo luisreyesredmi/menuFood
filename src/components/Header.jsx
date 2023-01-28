@@ -1,6 +1,7 @@
 import style from "./Header.module.css";
 import { BsPerson } from "react-icons/bs";
 import { BsCart3 } from "react-icons/bs";
+import { MdSearch } from "react-icons/md";
 const Header = () => {
   return (
     <nav className={style.container}>
@@ -15,13 +16,13 @@ const Header = () => {
         <li className={style.Food}>Pizzas</li>
         <li className={style.Food}>Burgers</li>
       </ul>
-      <div className={style.SearchIcons}>
+      <div className={style.SearchIcons}><MdSearch className={style.Icons2}/>
         <div className={style.Search}>
-          <input
+          <input 
             type="text"
             className="form-control"
             id="floatingInput"
-            placeholder="Search your order id"
+            placeholder ="       Search your order id"
           />
         </div>
         <BsPerson className={style.Icons} />

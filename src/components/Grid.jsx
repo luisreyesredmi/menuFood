@@ -3,7 +3,6 @@ import React from "react";
 import Card from "./Card";
 import foods from "../constants/foods";
 const Grid = () => {
-  
   const foodList = foods.map((item) => (
     <Card
       nombre={item.name}

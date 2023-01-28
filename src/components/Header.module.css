@@ -70,6 +70,8 @@
     font-size: 15px;
     text-decoration-line: none;
     text-indent: 20px;
+    position: relative;
+    right: 75px;
 
 }
 
@@ -121,21 +123,23 @@
 .TheBasicContent{
     position: absolute;
     top: 33%;
-    right: 55%;
+    right: 54%;
     list-style-type: none;
     font-weight: bolder;
 }
 
 .WordsContent{
     position: absolute;
-    top: 37%;
-    right: 24%;
+    top: 39%;
+    right: 1%;
+    left: 39%;
+    font-size: larger;
     list-style-type: none;
 }
 
 .CostContent{
     position: absolute;
-    right: 57%;
+    right: 58.5%;
     top: 60%;
     list-style-type: none;
     font-weight: bolder;
@@ -143,7 +147,7 @@
 
 .AmountContent{
     position: absolute;
-    right: 57%;
+    right: 57.5%;
     top: 65%;
     list-style-type: none;
     font-weight: bolder;
@@ -151,13 +155,13 @@
 
 .ADDContent{
     position: absolute;
-    right: 22%;
+    right: 1%;
     top: 72%;
     list-style-type: none;
     font-weight: bolder;
     background-color: #000000;
     color: #ebece8;
-    padding: 20px 208px;
+    padding: 20px 358px;
 }
 
 .TextContent{
@@ -165,4 +169,15 @@
     right: 33%;
     top: 74%;
     list-style-type: none;
+}
+
+.WordsIndex{
+    position: relative;
+    top: -15px;
+    
+}
+
+.Icons2{
+    position: relative;
+    right: -35px;
 }
