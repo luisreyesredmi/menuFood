@@ -1,4 +1,4 @@
-import style from "./Header.module.css";
+import style from "./Menu.module.css";
 import { MdLocalPizza } from "react-icons/md";
 import { RiLeafFill } from "react-icons/ri";
 import { FaShoppingCart } from "react-icons/fa";

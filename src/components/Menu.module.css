@@ -1,0 +1,22 @@
+.ContainerMenu {
+    background-color: #ffffff;
+}
+
+.TextMenu {
+    display: flex;
+    margin: 24px;
+    list-style-type: none;
+    word-spacing: 8px;
+    padding-left: 50px;
+    text-align: end;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    border-bottom-style: ridge;
+    padding-bottom: 20px;
+    box-shadow: 10px;
+}
+
+.WordsMenu {
+    border-left-style: ridge;
+}

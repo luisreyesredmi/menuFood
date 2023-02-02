@@ -1,0 +1,27 @@
+.Card {
+    background-color: #ffffff;
+    border: groove;
+    border-radius: 5px;
+    height: 230px;
+    margin-top: 30px;
+    padding: 3px;
+    vertical-align: text-bottom;
+    flex: auto;
+    max-width: 250px;
+}
+
+.Text {
+    word-spacing: 96px;
+    font-family: serif;
+    font-weight: normal;
+    color:#534f57;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.Info {
+    font: menu;
+    color: #afd6f3;
+    margin: 5px;
+    cursor: pointer;
+}

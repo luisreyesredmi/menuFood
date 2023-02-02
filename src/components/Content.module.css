@@ -1,0 +1,48 @@
+.ContainerContent {
+    flex-wrap: inherit;
+    gap: 100px;
+    max-width: 1258px;
+    width: 100vw;
+
+}
+
+.TheBasicContent{
+    list-style-type: none;
+    font-weight: bolder;
+}
+
+.WordsContent{
+    top: 39%;
+    right: 1%;
+    left: 39%;
+    font-size: larger;
+    list-style-type: none;
+    flex: auto;
+}
+
+.CostContent{
+    right: 58.5%;
+    top: 60%;
+    list-style-type: none;
+    font-weight: bolder;
+    flex: auto;
+}
+
+.AmountContent{
+    right: 57.5%;
+    top: 65%;
+    list-style-type: none;
+    font-weight: bolder;
+    flex: auto;
+}
+
+.ADDContent{
+    right: 1%;
+    top: 72%;
+    list-style-type: none;
+    font-weight: bolder;
+    background-color: #000000;
+    color: #ebece8;
+    padding: 20px 358px;
+    flex: auto;
+}

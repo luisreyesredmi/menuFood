@@ -1,4 +1,4 @@
-import style from "./Grid.module.css";
+import style from "./Card.module.css";
 import { useNavigate } from "react-router-dom";
 
 const Card = (props) => {

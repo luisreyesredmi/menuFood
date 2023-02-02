@@ -1,4 +1,4 @@
-import style from "./Header.module.css";
+import style from "./Index.module.css";
 
 const Index = () => {
     return (

@@ -35,6 +35,7 @@ function App() {
     <Router>
         <Routes>
           <Route element={<Detalle />} path="/food/:id"/>
+          <Route element={<Detalle />} path="/food/:null"/>
           <Route element={<Home />} path="/"/>
         </Routes>
     </Router>

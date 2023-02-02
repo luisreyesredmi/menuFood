@@ -4,7 +4,7 @@ import { BsCart3 } from "react-icons/bs";
 import { MdSearch } from "react-icons/md";
 const Header = () => {
   return (
-    <nav className={style.container}>
+    <nav className={style.Container} style={{ display: "flex" }}>
       <ul className={style.Words}>
         <li
           className={style.TheStore}

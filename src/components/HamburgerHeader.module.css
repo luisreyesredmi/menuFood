@@ -1,44 +1,11 @@
-.Container {
-    flex-wrap: inherit;
-}
-
-.ContentSearch {
-    background-color: #fffaf8;
-    height: 30px;
-    left: 425px;
-}
-
-.SearchWords {
-    color: #dad3d1;
-    margin: 10px;
-    overflow-wrap: normal;
-    font-size: 15px;
-    text-decoration-line: none;
-    text-indent: 20px;
-    right: 75px;
-
-}
-
-.ContentWords {
-    width: 100%;
-    height: 100vh;
-    color: #dad3d1;
-    text-decoration-line:none;
-
-}
-
-.ExplosionOfFlavors {
-    border-left-style: ridge
-}
-
-.TextContent{
-    right: 33%;
-    top: 74%;
-    list-style-type: none;
-}
-
-.Icons2{
-    right: -35px;
+.container {
+    background-color: #fbe9e7;
+    font-size: larger;
+    white-space: nowrap;
+    word-spacing: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
 }
 
 .Words {

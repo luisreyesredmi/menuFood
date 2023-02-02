@@ -1,4 +1,4 @@
-import style from "./Header.module.css";
+import style from "./HamburgerHeader.module.css";
 import { BsPerson } from "react-icons/bs";
 import { BsCart3 } from "react-icons/bs";
 const HamburgerHeader = () => {
