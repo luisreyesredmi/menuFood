@@ -1,5 +1,10 @@
+.HeaderContainer {
+    background-color: #fbe9e7;
+}
+
 .Container {
     flex-wrap: inherit;
+    background-color: #fbe9e7;
 }
 
 .ContentSearch {
