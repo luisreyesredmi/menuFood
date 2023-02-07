@@ -2,7 +2,7 @@ const foods = [
   { 
     id: "1", 
     name: "empanada", 
-    imagen: "Hamburguesa1.jpg", 
+    imagen: "/Hamburguesa1.jpg", 
     precio: "1.3", 
     text: "USA burger, named after our family home. This whole burger brews a wondefully balanced, all round family recipe, find the ingredients: The Two Cheese Deluxe 1/3 lb.*double Signature Stackburger has two 100% seaspned real beef patties.", 
   },

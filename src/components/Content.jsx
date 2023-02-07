@@ -4,27 +4,31 @@ import { AiOutlineMinusCircle } from "react-icons/ai";
 import foods from "../constants/foods";
 import { useParams } from "react-router-dom";
 
+const Content = () => {
+  const { id } = useParams();
 
-const Content = (props) => {
-  const {id} = useParams();
-  
-  const myFood = foods.find(food => food.id === id);
+  const myFood = foods.find((food) => food.id === id);
 
-  console.log(myFood);
+  if (myFood === undefined) {
+    return <p>No encontré la comida que buscabas</p>
+  }
   return (
-    <section className={style.ContainerContent} style = {{display: "flex"}}>
-      <img src= {myFood.imagen} width="490" height="280" />
-      <div className={style.ContainerText} right="100px">
-        <div className={style.TheBasicContent}>{myFood.name}</div>
-        <div className={style.WordsContent}>
-          <p>{myFood.text}</p>
-        </div>
+    <section className={style.ContainerContent}>
+      <img src={myFood.imagen} width="500" height="325"/>
+      <div className={style.ContainerText}>
+        <h2 className={style.TheBasicContent}>{myFood.name}</h2>
+        <p className={style.WordsContent}>{myFood.text}</p>
         <div className={style.CostContent}>${myFood.precio}</div>
         <div className={style.AmountContent}>
-          <AiOutlinePlusCircle /> 0 <AiOutlineMinusCircle />
+          <button className={style.Icons1}>
+            <AiOutlinePlusCircle />
+          </button>
+          0
+          <button className={style.Icons2}>
+            <AiOutlineMinusCircle />
+          </button>
         </div>
-        <div className={style.ADDContent}>ADD TO CART</div>
-        
+        <button className={style.ADDContent}>ADD TO CART</button>
       </div>
     </section>
   );

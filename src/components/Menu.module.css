@@ -7,14 +7,14 @@
     margin: 24px;
     list-style-type: none;
     word-spacing: 8px;
-    padding-left: 50px;
+    padding-left: 8px;
     text-align: end;
     align-items: center;
     justify-content: space-between;
     -webkit-box-align: center;
     border-bottom-style: ridge;
     padding-bottom: 20px;
-    box-shadow: 10px;
+    height: 41px;
 }
 
 .WordsMenu {

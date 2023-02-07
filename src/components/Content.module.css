@@ -1,33 +1,55 @@
 .ContainerContent {
     flex-wrap: inherit;
-    gap: 100px;
+    gap: 84px;
     max-width: 1258px;
     width: 100vw;
+    display: flex;
+}
 
+.ContainerText{
+    margin: -19px;
 }
 
 .TheBasicContent{
     list-style-type: none;
     font-weight: bolder;
-    height: 35px;
+    height: 55px;
+    display: flex;
 }
 
 .WordsContent{
     font-size: larger;
     list-style-type: none;
     height: 155px;
+    
 }
 
 .CostContent{
     list-style-type: none;
     font-weight: bolder;
-    height: 28px;
+    height: 55px;
+    display: flex;
+    flex-wrap:nowrap;
 }
 
 .AmountContent{
     list-style-type: none;
     font-weight: bolder;
-    height: 41px;
+    height: 68px;
+    display: flex;
+    margin: -8px;
+}
+
+.Icons1{
+    border: #ebece8;
+    background-color: #ffffff;
+    height: max-content;
+}
+
+.Icons2{
+    border: #ebece8;
+    background-color: #ffffff;
+    height: max-content;
 }
 
 .ADDContent{
@@ -35,6 +57,7 @@
     font-weight: bolder;
     background-color: #000000;
     color: #ebece8;
-    padding: 20px 358px;
+    padding: 12px 358px;
     width: max-content;
+    display: flex;
 }
