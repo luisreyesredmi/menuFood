@@ -15,12 +15,14 @@
     font-weight: bolder;
     height: 55px;
     display: flex;
+    font-family: serif;
 }
 
 .WordsContent{
     font-size: larger;
     list-style-type: none;
     height: 155px;
+    font-family: serif;
     
 }
 
@@ -30,6 +32,7 @@
     height: 55px;
     display: flex;
     flex-wrap:nowrap;
+    font-family: serif
 }
 
 .AmountContent{
@@ -38,6 +41,7 @@
     height: 68px;
     display: flex;
     margin: -8px;
+    font-family: serif;
 }
 
 .Icons1{
@@ -60,4 +64,5 @@
     padding: 12px 358px;
     width: max-content;
     display: flex;
+    font-family: serif;
 }

@@ -8,10 +8,10 @@ const Menu = () => {
     return (
         <nav className={style.ContainerMenu}>
             <ul className={style.TextMenu}>
-                <li className={style.WordsMenu}><MdLocalPizza />Local Pizzas & Burgers</li>
-                <li className={style.WordsMenu}><GiSpoon />Explosion of flavors</li>
-                <li className={style.WordsMenu}><RiLeafFill />Carefull sourced</li>
-                <li className={style.WordsMenu}><FaShoppingCart/>Free shipping over $25</li>
+                <li className={style.WordsMenu}><MdLocalPizza className={style.Icons}/>  Local Pizzas & Burgers</li>
+                <li className={style.WordsMenu}><GiSpoon className={style.Icons}/>  Explosion of flavors</li>
+                <li className={style.WordsMenu}><RiLeafFill className={style.Icons}/>  Carefull sourced</li>
+                <li className={style.WordsMenu}><FaShoppingCart className={style.Icons}/>  Free shipping over $25</li>
             </ul>
         </nav>
     )

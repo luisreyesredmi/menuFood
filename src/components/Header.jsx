@@ -22,8 +22,7 @@ const Header = () => {
             type="text"
             className="form-control"
             id="floatingInput"
-            placeholder ="Search your order id"
-            margin="50px"
+            placeholder ="Search your order id"  
           />
         </div>
         <BsPerson className={style.Icons} />

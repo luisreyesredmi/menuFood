@@ -6,7 +6,7 @@
     display: flex;
     margin: 24px;
     list-style-type: none;
-    word-spacing: 8px;
+    word-spacing: 2px;
     padding-left: 8px;
     text-align: end;
     align-items: center;
@@ -15,8 +15,13 @@
     border-bottom-style: ridge;
     padding-bottom: 20px;
     height: 41px;
+    font-family: serif;
 }
 
 .WordsMenu {
     border-left-style: ridge;
+}
+
+.Icons {
+    margin-left: 30px;
 }
