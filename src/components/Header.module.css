@@ -78,6 +78,7 @@
     text-align: end;
     align-items: center;
     justify-content:space-between;
+    margin-inline-end: 56px;
 }
 
 .Search {

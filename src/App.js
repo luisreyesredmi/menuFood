@@ -4,13 +4,12 @@ import Grid from './components/Grid';
 import Menu from './components/Menu';
 import Index from './components/Index';
 import Content from './components/Content';
-import { BrowserRouter as Router, Routes, Route, useParams } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function Blog ()  {
-  const routeParams = useParams();
-};
+
 
 function Home() {
+  
   return (
     <div>
       <Header />
@@ -35,7 +34,6 @@ function App() {
     <Router>
         <Routes>
           <Route element={<Detalle />} path="/food/:id"/>
-          <Route element={<Detalle />} path="/food/:null"/>
           <Route element={<Home />} path="/"/>
         </Routes>
     </Router>
