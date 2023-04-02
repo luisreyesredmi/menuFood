@@ -21,9 +21,6 @@ const Grid = () => {
       })
       .catch((error) => console.log("error", error));
   }, []);
-  if (!foods) {
-    return <p>No encontré la comida que buscabas</p>
-  }
 
   return (
     <div className={style.Main} style={{ display: "flex" }}>
